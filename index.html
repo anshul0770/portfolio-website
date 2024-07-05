@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Personal Portfolio Website</title>
+    <!----CSS link----->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+
+            <div class="left">Anshul's Portfolio</div>
+            <ul>
+
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="skills.html">My Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="testcontact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+
+            <h1>Hello, I’m <span>Anshul Sharma</span></h1>
+            <span id="element"></span>
+            <p>
+                I am a passionate and dedicated web development intern with a strong foundation in front-end and
+                back-end technologies. Currently pursuing a degree in Bachlors of Computer Applications , I have
+                hands-on experience with
+                HTML, CSS, JavaScript, My projects demonstrate my ability to
+                create responsive and user-friendly web applications. I am eager to apply my skills in a professional
+                setting, contribute to innovative projects, and continue growing as a developer.
+            </p>
+            <a href="ANSHUL SHARMA (2).pdf" download class="btn">Download CV</a>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            // Waits 5000ms after typing "First"
+            strings: ['Web Designer', 'Web Devloper',],
+        });
+    </script>
+</body>
